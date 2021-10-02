@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAS Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/12f978426a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.jpg">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.jpg" alt="" class="logo">
+            <!-- <a href="#">NAS Coding</a> -->
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <!-- ----------------------  setting menu  ------------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Akhilesh Yadav</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to provide more awesome Website</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" alt="" class="setting-icon">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" width="15px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" alt="" class="setting-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="15px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" alt="" class="setting-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="15px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" alt="" class="setting-icon">
+                    <a href="#">Log Out <img src="images/arrow.png" width="15px" alt=""></a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- -------------left-sidebar ------------------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest news</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcut</p>
+                <a href="#"><img src="images/shortcut1.png">Java Programming</a>
+                <a href="#"><img src="images/shortcut2.png">Python programming</a>
+                <a href="#"><img src="images/shortcut3.png">C++ programming</a>
+                <a href="#"><img src="images/shortcut4.png">C programming</a>
+            </div>
+        </div>
+
+        <!-- -------------main-comtent ------------------>
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member1.png" alt="">
+                    <p>Post story</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member2.png" alt="">
+                    <p>Post story</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member3.png" alt="">
+                    <p>Post story</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member4.png" alt="">
+                    <p>Post story</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Akhilesh</p>
+                        <small>Public<i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="10" placeholder="What's on your mind"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Akhilesh</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">i am a good boy so that you people must like me so that my confidence goes high</p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">30</div>
+
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Akhilesh</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">i am a good boy so that you people must like me so that my confidence goes high</p>
+                <img src="images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">30</div>
+
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Akhilesh</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">i am a good boy so that you people must like me so that my confidence goes high</p>
+                <img src="images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">30</div>
+
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Akhilesh</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">i am a good boy so that you people must like me so that my confidence goes high</p>
+                <img src="images/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">30</div>
+
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Akhilesh</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">i am a good boy so that you people must like me so that my confidence goes high</p>
+                <img src="images/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">30</div>
+
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+
+        <!-- -------------right-sidebar ------------------>
+        <div class="right-sidebar">
+
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Wilson tech park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile market</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Wilson tech mobile</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member1.png">
+                </div>
+                <p>Akhilesh Yadav</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member2.png">
+                </div>
+                <p>Abhinandan Yadav</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member3.png">
+                </div>
+                <p>Shalesh Yadav</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member4.png">
+                </div>
+                <p>Neelesh Yadav</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 - Nas Coding</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
